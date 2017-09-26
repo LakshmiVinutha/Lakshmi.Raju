@@ -16,6 +16,7 @@ This will start the notebook server and display a URL you can use to connect fro
 
 ![Jupyter_Web](https://github.com/LakshmiVinutha/Lakshmi.Raju/blob/master/Jupyter_web.png)
 
+
 ![Web_Browser](https://github.com/LakshmiVinutha/Lakshmi.Raju/blob/master/web_browser.png)
 
 
