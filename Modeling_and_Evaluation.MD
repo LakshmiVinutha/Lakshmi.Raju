@@ -16,6 +16,9 @@ This will start the notebook server and display a URL you can use to connect fro
 
 ![Jupyter_Web](https://github.com/LakshmiVinutha/Lakshmi.Raju/blob/master/Jupyter_web.png)
 
+![Web_Browser](https://github.com/LakshmiVinutha/Lakshmi.Raju/blob/master/web_browser.png)
+
+
 You will also notice a notebook file (.pynb) created in Notebooks tab of AMLWorkbench as shown below. Run the code from CATelcoCustomerChurnModeling.py via notebook. Alternatively, you can also open ChurnAnalytics.ipynb that contains markdown comments to run the code in the notebook.
 
 
