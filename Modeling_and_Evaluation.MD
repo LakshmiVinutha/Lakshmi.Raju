@@ -14,6 +14,6 @@ C:\Temp\Iris> az ml notebook
 This will start the notebook server and display a URL you can use to connect from any web browser on your machine (by default this is http://localhost:8888). Additionally, it also launches Jupyter web UI from this address using your default browser automatically as shown below. Create a new notebook as shown below.
 
 
-## ![Jupyter_Web](https://github.com/LakshmiVinutha/Lakshmi.Raju/blob/master/Jupyter_web.png)
+![Jupyter_Web](https://github.com/LakshmiVinutha/Lakshmi.Raju/blob/master/Jupyter_web.png)
 
 
