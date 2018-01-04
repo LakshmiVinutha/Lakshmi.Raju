@@ -4,7 +4,7 @@
 
 The aim of this lab is to log chat conversations to a file using middleware. Excessive I/O operations can result in slow responses from the bot. In this lab, the global events are leveraged to perform efficient logging of chat conversations to a file. We will continue to extend the code from the previous lab.
 
-```json
+````
 {
   "type": "message",
   "timestamp": "2017-10-27T11:19:15.2025869Z",
@@ -31,5 +31,5 @@ The aim of this lab is to log chat conversations to a file using middleware. Exc
   "entities": [],
   "replyToId": "09df56eecd28457b87bba3e67f173b84"
 }
-```
+````
 
