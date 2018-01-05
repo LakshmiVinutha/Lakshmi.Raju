@@ -8,7 +8,7 @@ The aim of this lab is to log chat conversations to a file using middleware. Exc
 
 A very simple way of logging chat conversations to a file is to use File.AppendAllLines as shown below in the code snippet. File.AppendAllLines opens a file, appends the specified string to the file, and then closes the file. However, this can be very inefficient way of logging as we will be opening and closing the file for every message from the user/bot.
 
-````C#
+```
 public class DebugActivityLogger : IActivityLogger
 {
     public async Task LogAsync(IActivity activiy)
@@ -16,7 +16,7 @@ public class DebugActivityLogger : IActivityLogger
         File.AppendAllLines("C:\\Users\\username\\log.txt", new[] { $"From:{activiy.From.Id} - To:{activiy.Recipient.Id} - Message:{activiy.AsMessageActivity().Text}" });
     }
 }
-````
+```
 
 ## 3.	An efficient way of logging
 
