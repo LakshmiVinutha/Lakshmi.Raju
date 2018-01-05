@@ -6,9 +6,9 @@ Writing code using Microsoft Bot Framework is fun and exciting. But before rushi
 
 Unit tests can help:
 
-* Verify functionality as you add it
-* Validate your components in isolation
-* People unfamiliar with your code verify they haven't broken it when they are working with it
+Verify functionality as you add it
+Validate your components in isolation
+People unfamiliar with your code verify they haven't broken it when they are working with it
 
 The goal of this lab is to introduce unit testing for bots developed using Microsoft Bot Framework.
 
