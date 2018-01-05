@@ -22,7 +22,7 @@ There is a comprehensive Learning Path you can use to prepare for this course [l
 ## Executing an Experiment Locally
 
 The general configuration for working with Azure Machine Learning has these components:
-![Azure Machine Learning Components](https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2016/06/nice-ganesh-ji-picture-wallpaper.jpg?resize=640%2C586)
+![Azure Machine Learning Components](https://docs.microsoft.com/en-us/azure/machine-learning/preview/media/overview-general-concepts/hierarchy.png)
 
 ### Configuration Files
 
