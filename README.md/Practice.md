@@ -11,3 +11,12 @@ As Kanye West said:
 
 
 `<addr>` element here instead.
+
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
