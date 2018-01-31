@@ -24,3 +24,10 @@ function fancyAlert(arg) {
        - Second nested list item
        
 octocat :+1: This PR looks great - it's ready to merge! :metal: :two_women_holding_hands:
+
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
