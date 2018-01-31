@@ -7,3 +7,6 @@
 
 * Start a line with a star
 * Profit!
+
+This text will be italic
+This will also be italic
