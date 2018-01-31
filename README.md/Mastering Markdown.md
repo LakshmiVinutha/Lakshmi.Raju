@@ -8,4 +8,4 @@
 * Start a line with a star
 * Profit!
 
-_You **can** combine them_
+You **can** combine them
