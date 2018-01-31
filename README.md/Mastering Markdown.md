@@ -23,4 +23,4 @@ function fancyAlert(arg) {
      - First nested list item
        - Second nested list item
        
-octocat :+1: This PR looks great - it's ready to merge! :metal:
+octocat :+1: This PR looks great - it's ready to merge! :metal: :two_women_holding_hands:
