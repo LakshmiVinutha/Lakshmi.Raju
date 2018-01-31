@@ -8,4 +8,6 @@
 * Start a line with a star
 * Profit!
 
-_You **can** combine them_
+*This text will be italic*
+_This will also be italic_
+
