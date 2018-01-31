@@ -8,6 +8,5 @@
 * Start a line with a star
 * Profit!
 
-As Kanye West said:
-
-> We're living the future so
+I think you should use an
+`<addr>` element here instead.
