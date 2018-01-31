@@ -35,5 +35,3 @@ octocat :+1: This PR looks great - it's ready to merge! :metal: :two_women_holdi
    1. Item 3b
    1. Item 3b
    1. Item 3b
-
-![GitHub Logo](https://i10.dainikbhaskar.com/thumbnails/570x600/web2images/www.dailybhaskar.com/2016/12/27/ganesh-idol_1482842862.jpg)
