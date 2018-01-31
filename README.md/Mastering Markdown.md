@@ -8,4 +8,4 @@
 * Start a line with a star
 * Profit!
 
-**This text will be bold**
+_You **can** combine them_
