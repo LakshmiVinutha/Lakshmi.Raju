@@ -35,3 +35,6 @@ octocat :+1: This PR looks great - it's ready to merge! :metal: :two_women_holdi
    1. Item 3b
    1. Item 3b
    1. Item 3b
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
