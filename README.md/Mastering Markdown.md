@@ -8,4 +8,5 @@
 * Start a line with a star
 * Profit!
 
-I think you should use an `<addr>` element here instead.
+I think you should use an
+`<addr>` element here instead.
