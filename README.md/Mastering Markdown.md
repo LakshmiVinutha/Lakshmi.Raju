@@ -36,13 +36,87 @@ octocat :+1: This PR looks great - it's ready to merge! :metal: :two_women_holdi
    1. Item 3b
    1. Item 3b
    
-#---- mainline
+# table no pipes
 
-def main(argv):
-    for path in argv[1:]:
-        tables = wiki_tables_to_tables(path)
-        sys.stdout.write(tables.encode(
-            sys.stdout.encoding or "utf-8", 'xmlcharrefreplace'))
+Header 1 | Header 2
+-------- | --------
+  Cell 1 | Cell 2
+  Cell 3 | Cell 4
+   
+# tables with leading pipe
 
-if __name__ == "__main__":
-    sys.exit( main(sys.argv) )
+| Header 1 | Header 2
+| -------- | --------
+| Cell 1 | Cell 2
+| Cell 3 | Cell 4
+
+
+# tables with full bars
+
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Cell 1 | Cell 2 |
+| Cell 3 | Cell 4 |
+
+# single column single leading bar
+
+| Header 1
+| --------
+| Cell 1
+| Cell 3
+
+# single column single trailing bar
+
+Header 1 |
+-------- |
+Cell 1 |
+Cell 3 |
+
+# single column full bars
+
+| Header 1 |
+| -------- |
+| Cell 1 |
+| Cell 3 |
+
+
+# narrow col 1
+
+| H |
+| - |
+| 1 |
+| 2 |
+
+# table in blockquote
+
+> | One | Two | Three |
+> | --- | --- | --- |
+> |grinch|stole|xmas|
+> |green|**eggs**|ham|
+>
+> -- Dr. Seuss
+
+# table with blank cells
+
+ | Header 1 |  |
+ | -------- | -------- |
+ | Cell 1 |          |
+ |  | Cell 4 |
+ 
+ 
+ # table in blockquote with empty cells
+
+> |  | Two | Three |
+> | --- | --- | --- |
+> |grinch|stole||
+> |green|**eggs**|ham|
+>
+> -- Dr. Seuss
+
+# escaping of pipes
+
+| A  | \| | C \| C |
+|--- |--- | ------ |
+|\|\|| BB | C |
+
+
