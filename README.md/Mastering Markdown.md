@@ -37,9 +37,13 @@ octocat :+1: This PR looks great - it's ready to merge! :metal: :two_women_holdi
    1. Item 3b
    
    
-   
-#---- Convert a Markdown document using
-[wiki-tables](https://github.com/trentm/python-markdown2/wiki/wiki-tables)
-to a Markdown document using
-[tables](https://github.com/trentm/python-markdown2/wiki/tables)
+   #---- mainline
 
+def main(argv):
+    for path in argv[1:]:
+        tables = wiki_tables_to_tables(path)
+        sys.stdout.write(tables.encode(
+            sys.stdout.encoding or "utf-8", 'xmlcharrefreplace'))
+
+if __name__ == "__main__":
+    sys.exit( main(sys.argv) )
