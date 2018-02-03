@@ -38,9 +38,9 @@ octocat :+1: This PR looks great - it's ready to merge! :metal: :two_women_holdi
    
    
    
-"""   
+#---- 
 Convert a Markdown document using
 [wiki-tables](https://github.com/trentm/python-markdown2/wiki/wiki-tables)
 to a Markdown document using
 [tables](https://github.com/trentm/python-markdown2/wiki/tables)
-"""
+
