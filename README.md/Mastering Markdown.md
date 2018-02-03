@@ -107,12 +107,14 @@ Cell 3 |
 | 1 |
 | 2 |
 
+
 # table with markup in cells
 
 | Header 1 | *Header* 2 |
 | -------- | -------- |
 | `Cell 1` | [Cell 2](http://example.com) link |
 | Cell 3 | **Cell 4** |
+
 
 # table in blockquote
 
@@ -123,12 +125,14 @@ Cell 3 |
 >
 > -- Dr. Seuss
 
+
 # table with blank cells
 
  | Header 1 |  |
  | -------- | -------- |
  | Cell 1 |          |
  |  | Cell 4 |
+
 
 # table in blockquote with empty cells
 
@@ -139,11 +143,14 @@ Cell 3 |
 >
 > -- Dr. Seuss
 
+
 # escaping of pipes
 
 | A  | \| | C \| C |
 |--- |--- | ------ |
 |\|\|| BB | C |
+
+
 
 
 
