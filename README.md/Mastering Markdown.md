@@ -91,7 +91,6 @@ Cell 3 |
 | 1 |
 | 2 |
 
-*Note:* This works in PHP-Markdown, fails in GFM.
 
 # narrow col 3
 
@@ -145,6 +144,7 @@ Cell 3 |
 | A  | \| | C \| C |
 |--- |--- | ------ |
 |\|\|| BB | C |
+
 
 
 | Header 1 | *Header* 2 |
