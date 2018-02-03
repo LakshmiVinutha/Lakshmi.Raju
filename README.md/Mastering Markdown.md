@@ -1,48 +1,11 @@
-## Sometimes you want numbered lists:
-1. One
-2. Two
-3. Three 
-
-## Sometimes you want bullet points:
-
-* Start a line with a star
-* Profit!
-
-I think you should use an
-`<addr>` element here instead.
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-
-1. First list item
-     - First nested list item
-       - Second nested list item
-       
-octocat :+1: This PR looks great - it's ready to merge! :metal: :two_women_holding_hands:
-
-
-1. Item 1
-1. Item 2
-1. Item 3
-1. Item 4
-1. Item 5
-   1. Item 3a
-   1. Item 3b
-   1. Item 3b
-   1. Item 3b
-   
 # table no pipes
 
 Header 1 | Header 2
 -------- | --------
   Cell 1 | Cell 2
   Cell 3 | Cell 4
-   
+
+
 # tables with leading pipe
 
 | Header 1 | Header 2
@@ -50,9 +13,42 @@ Header 1 | Header 2
 | Cell 1 | Cell 2
 | Cell 3 | Cell 4
 
-
 # tables with full bars
 
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Cell 1 | Cell 2 |
+| Cell 3 | Cell 4 |
+
+
+# tables with mixed bars
+
+Header 1 | Header 2
+| -------- | --------
+Cell 1 | Cell 2 |
+| Cell 3 | Cell 4 |
+
+
+# tables with bars and leading spacing
+
+ | Header 1 | Header 2 |
+ | -------- | -------- |
+ | Cell 1 | Cell 2 |
+ | Cell 3 | Cell 4 |
+
+
+# table with cuddled following content
+
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Cell 1 | Cell 2 |
+| Cell 3 | Cell 4 |
+
+
+
+# FAIL: table with cuddled leading content
+
+before
 | Header 1 | Header 2 |
 | -------- | -------- |
 | Cell 1 | Cell 2 |
@@ -87,6 +83,38 @@ Cell 3 |
 | 1 |
 | 2 |
 
+
+# narrow col 2
+
+| He |
+| -- |
+| 1 |
+| 2 |
+
+*Note:* This works in PHP-Markdown, fails in GFM.
+
+# narrow col 3
+
+| He |
+| --- |
+| 1 |
+| 2 |
+
+
+# FAIL: no dash
+
+| He |
+| :: |
+| 1 |
+| 2 |
+
+# table with markup in cells
+
+| Header 1 | *Header* 2 |
+| -------- | -------- |
+| `Cell 1` | [Cell 2](http://example.com) link |
+| Cell 3 | **Cell 4** |
+
 # table in blockquote
 
 > | One | Two | Three |
@@ -102,9 +130,8 @@ Cell 3 |
  | -------- | -------- |
  | Cell 1 |          |
  |  | Cell 4 |
- 
- 
- # table in blockquote with empty cells
+
+# table in blockquote with empty cells
 
 > |  | Two | Three |
 > | --- | --- | --- |
@@ -118,5 +145,4 @@ Cell 3 |
 | A  | \| | C \| C |
 |--- |--- | ------ |
 |\|\|| BB | C |
-
 
